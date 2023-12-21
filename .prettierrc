@@ -1,0 +1,21 @@
+{
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"overrides": [
+		{
+			"files": "*.{js,jsx,ts,tsx,json,html,css,scss,yml,yaml}",
+			"options": {
+				"plugins": [
+					"prettier-plugin-replace"
+				],
+				"replace": [
+					[
+						"·",
+						""
+					]
+				]
+			}
+		}
+	]
+}
